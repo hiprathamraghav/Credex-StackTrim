@@ -2,7 +2,7 @@
 
 StackTrim is a free AI spend audit tool for startup founders and engineering managers who pay for Cursor, Claude, ChatGPT, Copilot, Gemini, Windsurf, or direct API usage. It shows plan-fit issues, credible downgrade/switch opportunities, annual savings, and high-savings Credex consultation prompts without requiring login before value is shown.
 
-Live URL: add the Vercel deployment URL here before submission.
+Live URL: https://credex-stacktrim.vercel.app
 
 ## Screenshots
 
@@ -27,6 +27,8 @@ Open `http://localhost:3000`.
 Deploy on Vercel, then add these environment variables: `NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `RESEND_API_KEY`, `RESEND_FROM_EMAIL`, and either `GEMINI_API_KEY` or `ANTHROPIC_API_KEY`.
 
 Create Supabase tables named `audits` and `leads` with JSON columns for audit input/result and standard text columns for lead fields.
+
+Production has been verified with Supabase audit storage, Gemini summaries, public share URLs, lead capture, and Resend confirmation email.
 
 ## Decisions
 
