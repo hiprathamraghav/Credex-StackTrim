@@ -16,6 +16,10 @@ The recording shows:
 - Audit results dashboard
 - Public share and lead capture area
 
+Resend confirmation email:
+
+![Resend confirmation email](public/media/resend-confirmation-email.png)
+
 ## Quick Start
 
 ```bash
