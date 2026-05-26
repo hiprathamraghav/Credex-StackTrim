@@ -6,11 +6,15 @@ Live URL: https://credex-stacktrim.vercel.app
 
 ## Screenshots
 
-Add three screenshots or a 30-second Loom/YouTube walkthrough before submission:
+30-second walkthrough:
+
+[StackTrim product walkthrough](public/media/stacktrim-walkthrough.mp4)
+
+The recording shows:
 
 - Landing calculator
 - Audit results dashboard
-- Public share page
+- Public share and lead capture area
 
 ## Quick Start
 
